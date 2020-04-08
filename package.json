@@ -1,0 +1,29 @@
+{
+  "name": "bfm-rss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Maxime Bele <maxime.bele@gmail.com> (https://twitter.com/BeleMaxime)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@types/xml2js": "^0.4.5",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "rss-parser": "^3.7.6"
+  }
+}
